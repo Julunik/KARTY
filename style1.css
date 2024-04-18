@@ -1,0 +1,172 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul
+{
+    line-height: 200%;
+    font-size: xx-large;
+    padding: 50px;
+}
+
+.link
+{
+    text-decoration: none;
+    color: white;
+}
+
+.link::before
+{
+    content: "➢ ";
+}
+
+.link:hover::before
+{
+    content: '⏩ ';
+}
+
+.link:hover
+{
+    border: 3px wheat dashed;
+    color: wheat;
+}
+
+.logo
+{
+    text-align: center;
+    padding: 25px;
+    font-weight: 900;
+    font-size: xx-large;
+    background-image: url('grafika/background_logo.jpg');
+}
+
+h1
+{
+    color: wheat;
+    text-align: center;
+}
+
+.menu
+{
+    height: 100%;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.623);
+    float: left;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.stopka
+{
+    color: black;
+    font-weight: bold;
+    height: 50px;
+    padding: 20px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-image: url('grafika/background_logo.jpg');
+}
+
+.main
+{
+    background-image: url('grafika/wood_background.jpg');
+    width: 100%;
+    height: 860px;
+    float: left;
+    padding: 30px;
+    vertical-align: middle;
+}
+
+.as
+{
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 40%;
+}
+
+.krol
+{
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 40%;
+
+    animation: rotateKrol 5s linear infinite normal;
+}
+
+.dama
+{
+    position: absolute;
+    z-index: 3;
+    left: 50%;
+    top: 40%;
+
+    animation: rotateDama 5s linear infinite normal;
+}
+
+@keyframes rotateDama
+{
+    0% /* 1 */
+    {
+        transform: rotate(0deg);
+        left: 50%;
+        top: 40%;
+    }
+
+    25% /* 2 */
+    {
+        transform: rotate(30deg);
+        left: 54%;
+        top: 44%;
+    }
+
+    75% /* 2 */
+    {
+        transform: rotate(30deg);  
+        left: 54%;
+        top: 44%; 
+    }
+
+    100% /* 1 */
+    {
+        transform: rotate(0deg);
+        left: 50%;
+        top: 40%;
+    }
+}
+
+@keyframes rotateKrol
+{
+    0% /* 1 */
+    {
+        transform: rotate(0deg);
+        top: 40%;
+        left: 50%;
+    }
+
+    25% /* 2 */
+    {
+        transform: rotate(15deg);   
+        top: 42%;
+        left: 52%;
+    }
+
+    75% /* 2 */
+    {
+        transform: rotate(15deg);
+        top: 42%;
+        left: 52%;
+    }
+
+    100% /* 1 */
+    {
+        transform: rotate(0deg);
+        top: 40%;
+        left: 50%;
+    }
+}

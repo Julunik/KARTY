@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLACKJACK 1.0 - Julek 4TIB</title>
+    <link rel="icon" href="grafika/zetony/100000.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="box1"></div>
+    <div id="box2"></div>
+
+    <br style="margin-top: 500px;">
+    <button onclick="Deal()" style="margin-top: 50px;">Gotowy!</button>
+    <button onclick="Hit()">Podbij</button>
+    <button onclick="Stand()">Zostaw</button>
+    <div id="tokenBox"></div>
+    <button onclick="POSTAW(100)" class="postaw_button">POSTAW 100$</button>
+    <button onclick="POSTAW(500)" class="postaw_button">POSTAW 500$</button>
+    <button onclick="POSTAW(1000)" class="postaw_button">POSTAW 1000$</button>
+    <button onclick="POSTAW(10000)" class="postaw_button">POSTAW 10 000$</button>
+    <button onclick="POSTAW(100000)" class="postaw_button">POSTAW 100 000$</button>
+    <p id="dollars">
+        $ 0
+    </p>
+
+    <script src="main.js"></script>
+</body>
+</html>

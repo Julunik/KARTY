@@ -1,0 +1,97 @@
+*
+{
+    user-select: none;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body
+{
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url('grafika/background.jpg');
+    background-size: 100%;
+    overflow: hidden;
+}
+
+#dollars
+{
+    font-size: 32px;
+    color: green;
+    margin: 20px;
+    text-shadow: 2px 2px 2px black;
+}
+
+#stawka
+{
+    color: cadetblue;
+    text-align: center;
+    width: 100px;
+    margin-left: 20px;
+}
+
+button
+{
+    width: 125px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+#box1
+{
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    width: 500px;
+    height: 400px;
+}
+
+#tokenBox
+{
+    width: 800px;
+    height: 150px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.karta
+{
+    margin-left: -200px;
+}
+
+#tokenBox img
+{
+    margin-left: -110px;
+    margin-top: -90px;
+}
+
+#box1 p
+{
+    position: absolute;
+    top: -30px;
+    left: -180px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+}
+
+#box2
+{
+    position: absolute;
+    top: 150px;
+    right: 200px;
+    width: 500px;
+    height: 400px;
+    float: left;
+}
+
+#box2 p
+{
+    position: absolute;
+    top: -30px;
+    left: -180px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+}

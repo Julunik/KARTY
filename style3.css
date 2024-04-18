@@ -1,0 +1,11 @@
+.blok
+{
+    display: inline-block;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border: 2px solid;
+    left: 49%;
+    top: 39%;
+    border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
+}
